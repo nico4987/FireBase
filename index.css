@@ -1,0 +1,19 @@
+body {
+    background-color: lemonchiffon;
+}
+.eyebrow {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: cyan;
+    text-align: center;
+    background-color: coral;
+}
+
+#h1 {
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: cyan;
+    text-align: center;
+    background-color: rgb(133, 42, 42);
+    background-size: 30px;
+}
