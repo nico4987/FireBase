@@ -1,19 +1,25 @@
 body {
-    background-color: lemonchiffon;
-}
-.eyebrow {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-shadow: cyan;
+    font-family: Arial, sans-serif;
     text-align: center;
-    background-color: coral;
+    background-color: #8aadbd;
 }
 
-#h1 {
-    font-family: monospace;
-    font-size: 20px;
-    text-shadow: cyan;
-    text-align: center;
-    background-color: rgb(133, 42, 42);
-    background-size: 30px;
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
+
+#mensaje {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#btnGuardar {
+    background-color: #4db139;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
