@@ -2,24 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Refugio de Mascotas</title>
+    <title>Refugio - Etapa 1 y 2</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Refugio de Mascotas - Nicolás Ingelhorn</h1>
+    <h1>Refugio de Mascotas</h1>
     
     <div id="formulario">
-        <input type="text" id="codigo" placeholder="Código (Identificador Único)">
-        <input type="text" id="nombre" placeholder="Nombre de la mascota">
-        <input type="text" id="especie" placeholder="Especie (Ej: Perro, Gato)">
+        <input type="text" id="codigo" placeholder="Código">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="especie" placeholder="Especie">
         <input type="number" id="edad" placeholder="Edad">
         <input type="text" id="raza" placeholder="Raza">
-        
-        <button id="btnGuardar">Guardar Mascota</button>
+        <button id="btnGuardar">Guardar</button>
     </div>
-
+    
     <div id="mensaje"></div>
-    <div id="lista"></div>
+
+    <h2>Mascotas Registradas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Especie</th>
+                <th>Edad</th>
+                <th>Raza</th>
+            </tr>
+        </thead>
+        <tbody id="lista"></tbody>
+    </table>
 
     <script type="module" src="index.js"></script>
 </body>

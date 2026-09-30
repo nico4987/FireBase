@@ -1,25 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #8aadbd;
-}
+body { font-family: Arial; text-align: center; background: #e6f7ff; }
+input, button { margin: 5px auto; padding: 5px; width: 250px; display: block; }
+#mensaje { color: green; font-weight: bold; margin: 10px; }
 
-input, button {
-    display: block;
-    margin: 10px auto;
-    padding: 8px;
-    width: 250px;
-}
-
-#mensaje {
-    color: green;
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-#btnGuardar {
-    background-color: #4db139;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+table { margin: 20px auto; border-collapse: collapse; width: 80%; background: white; }
+th, td { border: 1px solid black; padding: 8px; }
+th { background-color: #ccc; }
