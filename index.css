@@ -1,10 +1,10 @@
 body { 
-font-family: Arial;
+font-family: Arial; 
 text-align: center; 
 background: #cc9460; 
 }
 
-input, button { 
+button { 
 margin: 5px auto; 
 padding: 5px; 
 width: 250px; 
@@ -20,8 +20,7 @@ margin: 10px;
 table { 
 margin: 20px auto; 
 border-collapse: collapse; 
-width: 80%; 
-background: rgb(255, 255, 255); 
+width: 80%; background: white; 
 }
 
 th, td { 
@@ -31,4 +30,9 @@ padding: 8px;
 
 th { 
 background-color: rgb(138, 97, 97); 
+}
+
+#buscador { 
+background-color: #fff8dc; 
+border: 2px solid #8a6161; 
 }
